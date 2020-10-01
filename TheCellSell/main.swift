@@ -2,7 +2,9 @@
 //  main.swift
 //  TheCellSell
 //
-//  Created by Russell Gordon on 2020-09-30.
+//  Puzzle description available at:
+//
+//  https://www.russellgordon.ca/incomplete-puzzles/the-cell-sell.pdf
 //
 //  NOTE: Puzzle adapted from material provided by the University of Waterloo.
 
