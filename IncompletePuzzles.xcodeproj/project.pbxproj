@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EE0D950252563B00090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D94F252563B00090B2E0 /* main.swift */; };
+		0EE0D95F252563ED0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0EE0D94A252563B00090B2E0 /* CopyFiles */ = {
+		0EE0D95A252563ED0090B2E0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0EE0D94C252563B00090B2E0 /* IncompletePuzzles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IncompletePuzzles; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EE0D94F252563B00090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0EE0D95C252563ED0090B2E0 /* Trident */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Trident; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE0D95E252563ED0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EE0D949252563B00090B2E0 /* Frameworks */ = {
+		0EE0D959252563ED0090B2E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +41,7 @@
 		0EE0D943252563B00090B2E0 = {
 			isa = PBXGroup;
 			children = (
-				0EE0D94E252563B00090B2E0 /* IncompletePuzzles */,
+				0EE0D95D252563ED0090B2E0 /* Trident */,
 				0EE0D94D252563B00090B2E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,37 +49,37 @@
 		0EE0D94D252563B00090B2E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EE0D94C252563B00090B2E0 /* IncompletePuzzles */,
+				0EE0D95C252563ED0090B2E0 /* Trident */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EE0D94E252563B00090B2E0 /* IncompletePuzzles */ = {
+		0EE0D95D252563ED0090B2E0 /* Trident */ = {
 			isa = PBXGroup;
 			children = (
-				0EE0D94F252563B00090B2E0 /* main.swift */,
+				0EE0D95E252563ED0090B2E0 /* main.swift */,
 			);
-			path = IncompletePuzzles;
+			path = Trident;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EE0D94B252563B00090B2E0 /* IncompletePuzzles */ = {
+		0EE0D95B252563ED0090B2E0 /* Trident */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EE0D953252563B00090B2E0 /* Build configuration list for PBXNativeTarget "IncompletePuzzles" */;
+			buildConfigurationList = 0EE0D960252563ED0090B2E0 /* Build configuration list for PBXNativeTarget "Trident" */;
 			buildPhases = (
-				0EE0D948252563B00090B2E0 /* Sources */,
-				0EE0D949252563B00090B2E0 /* Frameworks */,
-				0EE0D94A252563B00090B2E0 /* CopyFiles */,
+				0EE0D958252563ED0090B2E0 /* Sources */,
+				0EE0D959252563ED0090B2E0 /* Frameworks */,
+				0EE0D95A252563ED0090B2E0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IncompletePuzzles;
-			productName = IncompletePuzzles;
-			productReference = 0EE0D94C252563B00090B2E0 /* IncompletePuzzles */;
+			name = Trident;
+			productName = Trident;
+			productReference = 0EE0D95C252563ED0090B2E0 /* Trident */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +91,7 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					0EE0D94B252563B00090B2E0 = {
+					0EE0D95B252563ED0090B2E0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -109,17 +109,17 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EE0D94B252563B00090B2E0 /* IncompletePuzzles */,
+				0EE0D95B252563ED0090B2E0 /* Trident */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EE0D948252563B00090B2E0 /* Sources */ = {
+		0EE0D958252563ED0090B2E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EE0D950252563B00090B2E0 /* main.swift in Sources */,
+				0EE0D95F252563ED0090B2E0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		0EE0D954252563B00090B2E0 /* Debug */ = {
+		0EE0D961252563ED0090B2E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		0EE0D955252563B00090B2E0 /* Release */ = {
+		0EE0D962252563ED0090B2E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -271,11 +271,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EE0D953252563B00090B2E0 /* Build configuration list for PBXNativeTarget "IncompletePuzzles" */ = {
+		0EE0D960252563ED0090B2E0 /* Build configuration list for PBXNativeTarget "Trident" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EE0D954252563B00090B2E0 /* Debug */,
-				0EE0D955252563B00090B2E0 /* Release */,
+				0EE0D961252563ED0090B2E0 /* Debug */,
+				0EE0D962252563ED0090B2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
