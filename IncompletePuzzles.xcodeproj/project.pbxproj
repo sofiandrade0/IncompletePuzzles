@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0EE0D95F252563ED0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
+		0EE0D96C252564CB0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D96B252564CB0090B2E0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0EE0D95A252563ED0090B2E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0EE0D967252564CB0090B2E0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		0EE0D95C252563ED0090B2E0 /* Trident */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Trident; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE0D95E252563ED0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0EE0D969252564CB0090B2E0 /* TheCellSell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheCellSell; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE0D96B252564CB0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0EE0D959252563ED0090B2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE0D966252564CB0090B2E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0EE0D95D252563ED0090B2E0 /* Trident */,
+				0EE0D96A252564CB0090B2E0 /* TheCellSell */,
 				0EE0D94D252563B00090B2E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				0EE0D95C252563ED0090B2E0 /* Trident */,
+				0EE0D969252564CB0090B2E0 /* TheCellSell */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				0EE0D95E252563ED0090B2E0 /* main.swift */,
 			);
 			path = Trident;
+			sourceTree = "<group>";
+		};
+		0EE0D96A252564CB0090B2E0 /* TheCellSell */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0D96B252564CB0090B2E0 /* main.swift */,
+			);
+			path = TheCellSell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 0EE0D95C252563ED0090B2E0 /* Trident */;
 			productType = "com.apple.product-type.tool";
 		};
+		0EE0D968252564CB0090B2E0 /* TheCellSell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE0D96D252564CB0090B2E0 /* Build configuration list for PBXNativeTarget "TheCellSell" */;
+			buildPhases = (
+				0EE0D965252564CB0090B2E0 /* Sources */,
+				0EE0D966252564CB0090B2E0 /* Frameworks */,
+				0EE0D967252564CB0090B2E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheCellSell;
+			productName = TheCellSell;
+			productReference = 0EE0D969252564CB0090B2E0 /* TheCellSell */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					0EE0D95B252563ED0090B2E0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					0EE0D968252564CB0090B2E0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -110,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				0EE0D95B252563ED0090B2E0 /* Trident */,
+				0EE0D968252564CB0090B2E0 /* TheCellSell */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE0D95F252563ED0090B2E0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE0D965252564CB0090B2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE0D96C252564CB0090B2E0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +317,24 @@
 			};
 			name = Release;
 		};
+		0EE0D96E252564CB0090B2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0EE0D96F252564CB0090B2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -276,6 +352,15 @@
 			buildConfigurations = (
 				0EE0D961252563ED0090B2E0 /* Debug */,
 				0EE0D962252563ED0090B2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE0D96D252564CB0090B2E0 /* Build configuration list for PBXNativeTarget "TheCellSell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE0D96E252564CB0090B2E0 /* Debug */,
+				0EE0D96F252564CB0090B2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
