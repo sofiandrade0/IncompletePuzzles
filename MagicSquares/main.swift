@@ -16,11 +16,11 @@ print("=============")
 // INPUT
 
 // Create an empty array to store each row of numbers
-// NOTE: Each row is itself an array, effectively creating a two-dimensional array.
+// NOTE: Each row will itself be an array, effectively creating a two-dimensional array.
 var numbers: [[String]] = []
 
 // Ask for the first row of numbers
-// NOTE: This is provided as a string
+// NOTE: This is provided as a String
 let line1 = readLine()!
 
 // Now split the first row of numbers using the space character as a delimiter, and then place the resulting array in the 2D array of numbers
